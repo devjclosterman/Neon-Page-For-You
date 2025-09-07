@@ -1,0 +1,47 @@
+# 2025 Ultra Flex Page with Neon Smoke
+
+## Overview
+
+This is a futuristic, neon-themed landing page designed for 2025. The page now includes an interactive blue neon smoke effect that follows the user's mouse, enhancing the visual experience. The page also features a glassmorphic hero card, shimmering header text, glowing gradient spheres, and a neon call-to-action button.
+
+## Features
+
+* **Glassmorphic Hero Card:** Semi-transparent card with blur and shadow effects.
+* **Shimmering Header Text:** Animated gradient text that catches attention.
+* **Floating Gradient Spheres:** Neon spheres drifting in the background.
+* **Neon CTA Button:** Glowing button with hover effects.
+* **Blue Neon Smoke:** Interactive particle effect that follows the mouse.
+* **Responsive Layout:** Optimized for desktop and mobile devices.
+
+## Technologies Used
+
+* HTML5
+* CSS3 with gradients, animations, and backdrop-filter
+* JavaScript for interactive neon smoke
+* Google Fonts (Space Grotesk)
+* Canvas API for particle animation
+
+## Usage
+
+1. Clone or download the repository.
+2. Include the `neon-smoke.js` script in your HTML file before the closing `</body>` tag.
+
+   ```html
+   <script src="neon-smoke.js"></script>
+   ```
+3. Open `index.html` in a browser to see the effect.
+
+## Customization
+
+* **Smoke Color:** Change the RGBA values in `neon-smoke.js` to adjust color.
+* **Particle Size and Speed:** Modify `size`, `speedX`, and `speedY` properties in the JS file.
+* **Number of Particles per Move:** Adjust the loop in the `mousemove` event listener.
+* **Hero Card & Text:** Update the HTML content for your own titles, subtitles, and descriptions.
+
+## License
+
+Free to use and modify. Attribution appreciated but not required.
+
+---
+
+**Tip:** Combine this with other interactive elements or scroll animations for an even more immersive experience.
